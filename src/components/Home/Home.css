@@ -1,0 +1,26 @@
+.mainConatiner{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+    align-items: center;
+    background: linear-gradient(90deg , purple, blue);
+    height: 80vh;
+}
+
+.leftsection{
+    font-size: 2rem;
+    font-weight: 700;
+    color: azure;
+}
+
+.name{
+    color:bisque;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.profile{
+    height: 20rem;
+    width: 20rem;
+    border-radius: 25rem;
+}
