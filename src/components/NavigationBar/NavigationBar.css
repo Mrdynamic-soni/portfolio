@@ -20,4 +20,20 @@
     display: flex;
     justify-content: space-around;
     gap:1rem;
+
+}
+
+.name{
+    font-family: 'Noto Serif', serif;
+    text-decoration: none;
+}
+
+.link{
+    font-family: 'Noto Serif', serif;
+    text-decoration: none;
+    color: #ffebcd;
+}
+
+.link:hover{
+    color: aqua;
 }

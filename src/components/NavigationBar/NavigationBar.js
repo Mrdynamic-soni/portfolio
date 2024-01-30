@@ -7,14 +7,14 @@ const NavigationBar = () => {
     return (
         <div className='navBar'>
             <div className='leftSection'>
-               <Link to="/"> Saurabh Soni</Link>
-                {/* <img src ={mylogo} alt='logo'/> */}
+               <Link to="/" className='name'> <div >Saurabh Soni</div></Link>
+               
             </div>
             <div className='rightSection'>
-                <Link to="/about">About</Link>
-                <Link to="career">Career</Link>
-                <Link to="work">Work</Link>
-                <Link to="hire">Hire me</Link>
+                <Link to="/about" className='link'>About</Link>
+                <Link to="career" className='link'>Career</Link>
+                <Link to="work" className='link'>Work</Link>
+                <Link to="hire" className='link'>Hire me</Link>
             </div>
         </div>
     )

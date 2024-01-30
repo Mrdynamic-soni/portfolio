@@ -1,26 +1,84 @@
-.mainConatiner{
+.mainConatiner {
     display: flex;
     justify-content: space-between;
     padding: 1.5rem;
     align-items: center;
-    background: linear-gradient(90deg , purple, blue);
+    background: linear-gradient(90deg, purple, blue);
     height: 80vh;
+    flex-wrap: wrap;
+    font-family: 'Noto Serif', serif;
 }
 
-.leftsection{
+.leftsection {
     font-size: 2rem;
     font-weight: 700;
     color: azure;
 }
 
-.name{
-    color:bisque;
+.name {
+    color: bisque;
     font-size: 3rem;
     font-weight: 700;
 }
 
-.profile{
+.profile {
     height: 20rem;
     width: 20rem;
     border-radius: 25rem;
+}
+
+.carousel-container {
+    overflow: hidden;
+    height: 3rem;
+    align-self: flex-start;
+    width: 11rem;
+    
+}
+
+.iamDiv{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap:1rem
+}
+
+.text-carousel {
+    display: flex;
+    flex-direction: column;
+    animation: scroll 12s linear infinite;
+    /* Adjust the animation duration as needed */
+}
+
+@keyframes scroll {
+
+    0%,
+    20% {
+        transform: translateY(0);
+    }
+
+    25%,
+    45% {
+        transform: translateY(-25%);
+    }
+
+    50%,
+    70% {
+        transform: translateY(-50%);
+    }
+
+    75%,
+    95% {
+        transform: translateY(-75%);
+    }
+}
+
+.text-item {
+    font-family: 'Noto Serif', serif;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    background: linear-gradient(90deg, rgb(63, 255, 255), rgb(81, 255, 0));
+    -webkit-background-clip: text;
+    color: transparent;
 }
